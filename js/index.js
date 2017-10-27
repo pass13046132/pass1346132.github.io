@@ -9,8 +9,8 @@
 			}
 			$("#skill_info").append("<p>"+data.skill_info+"</p>");
 			$(".skill_int").append("<ul></ul>");
-			for(var i in data.seo){
-				$("#skill_int1 ul").append("<li>"+data.seo[i]+"</li>");
+			for(var i in data.ng){
+				$("#skill_int1 ul").append("<li>"+data.ng[i]+"</li>");
 			}
 			for(var i in data.html){
 				$("#skill_int2 ul").append("<li>"+data.html[i]+"</li>");
