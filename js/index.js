@@ -224,7 +224,7 @@
 	});
 	$("#exp_list_toright").click(function(){
 		if(!$("#exp_list_content").is(":animated")){
-			if(page==2){
+			if(page==3){
 				$("#exp_list_content").animate({left:"-=50"},200,function(){
 					$(this).animate({left:"+=50"},200);
 				});
